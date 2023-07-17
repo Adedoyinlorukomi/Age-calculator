@@ -1,0 +1,25 @@
+body{
+    background:linear-gradient(230deg, lightgreen,lightblue);
+    min-height: 100vh;
+    animation: body 4s  1 ease-in-out;
+}
+@keyframes body {
+    from {padding-left: 80%;}
+    to {margin: auto; box-shadow: 0 0 130px #000000;}
+}
+#body{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Poppins'
+}
+
+#content-two{
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 100px;
+    font-family: 'Poppins';
+    box-shadow: 0 0 40px #000000;
+}
+#input{
+    display: flex;
+}
