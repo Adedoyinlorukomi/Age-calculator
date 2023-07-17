@@ -1,23 +1,23 @@
-// const btnEl = document.getElementById('btn');
-// const birthdayEl = document.getElementById('birthday');
+const btnEl = document.getElementById('btn');
+const birthdayEl = document.getElementById('birthday');
 
-// function calculateAge() {
-//     const birthdayValue = birthdayEl.value;
-//     if (birthdayValue === "") {
-//         alert("Please enter your birthday")
-//     } else {
-//         const age = getAge(birthdayValue);
-//     }
+function calculateAge() {
+    const birthdayValue = birthdayEl.value;
+    if (birthdayValue === "") {
+        alert("Please enter your birthday")
+    } else {
+        const age = getAge(birthdayValue);
+    }
     
-// }
-// function getAge(birthdayValue) {
-//     const currentDate = new Date();
-//     const birthdayDate= new Date(birthdayValue)
-//     const age = currentDate.getFullYear() - birthdayDate.getFullYear();
-//     document.getElementById('result').innerHTML = `You are ${age} years old`;
-// }
+}
+function getAge(birthdayValue) {
+    const currentDate = new Date();
+    const birthdayDate= new Date(birthdayValue)
+    const age = currentDate.getFullYear() - birthdayDate.getFullYear();
+    document.getElementById('result').innerHTML = `You are ${age} years old`;
+}
 
-// btnEl.addEventListener("click", calculateAge)
+btnEl.addEventListener("click", calculateAge)
 
 // let hoursOfCode = prompt('How many hours have you coded today?');
 // if (hoursOfCode == 0) {
